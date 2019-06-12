@@ -1,0 +1,62 @@
+/* ========== SECTION 1 - content animation ========== */
+.section-one > .fp-tableCell h1, .section-one > .fp-tableCell p {opacity: 0; -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out;}
+
+.section-one.active > .fp-tableCell h1, .section-one.active > .fp-tableCell p {opacity: 1;}
+
+.section-one.active > .fp-tableCell p {-webkit-transition-delay: .25s; transition-delay: .25s;}
+
+.section-one > .fp-tableCell img.img-mid {opacity: 0; transform: translateY(-50px); -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out;}
+.section-one.active > .fp-tableCell img.img-mid {z-index: 0; transform: translateY(-50px); opacity: 1;}
+
+.section-one > .fp-tableCell img.img-lft {opacity: 0; -webkit-transition: opacity 2s ease-in-out; transition: opacity 2s ease-in-out;}
+.section-one.active > .fp-tableCell img.img-lft {opacity: 0.3;}
+
+.section-one > .fp-tableCell img.img-rght {opacity: 0; -webkit-transition: opacity 2s ease-in-out; transition: opacity 2s ease-in-out;}
+.section-one.active > .fp-tableCell img.img-rght {opacity: 0.3;} 
+
+/* ========== SECTION 2 - content animation ========== */
+.section-two > .fp-tableCell h1, .section-two > .fp-tableCell p {opacity: 0; -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out;}
+
+.section-two.active > .fp-tableCell h1, .section-two.active > .fp-tableCell p, .section-two > .fp-tableCell img {opacity: 1;}
+
+.section-two.active > .fp-tableCell p {-webkit-transition-delay: .25s; transition-delay: .25s;}
+
+.section-two > .fp-tableCell img {opacity: 0; -webkit-transition: opacity 0.9s ease-in-out; transition: opacity 0.9s ease-in-out;}
+
+.section-two.active > .fp-tableCell img {opacity: 1; -webkit-transition-delay: .55s; transition-delay: .55s;}
+
+/* ========== SECTION 3 - content animation ========== */
+.section-three > .fp-tableCell h1, .section-three > .fp-tableCell p {opacity: 0; -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out;}
+
+.section-three.active > .fp-tableCell h1, .section-three.active > .fp-tableCell p {opacity: 1;}
+
+.section-three.active > .fp-tableCell p {-webkit-transition-delay: .45s; transition-delay: .45s;}
+
+.section-three > .fp-tableCell img {opacity: 0; -webkit-transition: opacity 0.9s ease-in-out; transition: opacity 0.9s ease-in-out;}
+
+.section-three.active > .fp-tableCell img {opacity: 1; -webkit-transition-delay: .55s; transition-delay: .55s;}
+
+/* ========== SECTION 4 - content animation ========== */
+.section-four > .fp-tableCell h1, .section-four > .fp-tableCell p {opacity: 0; -webkit-transition: opacity 1s ease-in-out; transition: opacity 1s ease-in-out;}
+
+.section-four.active > .fp-tableCell h1, .section-four.active > .fp-tableCell p {opacity: 1;}
+
+.section-four.active > .fp-tableCell p {-webkit-transition-delay: .25s; transition-delay: .25s;}
+
+.section-four > .fp-tableCell img {opacity: 0; -webkit-transition: opacity 0.9s ease-in-out; transition: opacity 0.9s ease-in-out;}
+
+.section-four.active > .fp-tableCell img {opacity: 1; -webkit-transition-delay: .55s; transition-delay: .55s;}
+
+/* ========== SECTION 5 - content animation ========== */
+.section-five > .fp-tableCell h1, .section-two > .fp-tableCell p {opacity: 0; -webkit-transition: opacity 1s ease-in-out; transition: 0.9s ease-in-out; }
+
+.section-five.active > .fp-tableCell h1, .section-five.active > .fp-tableCell p, .section-five > .fp-tableCell img {opacity: 1;}
+
+.section-five.active > .fp-tableCell p {-webkit-transition-delay: .25s; transition-delay: .25s;}
+
+.section-five > .fp-tableCell img {opacity: 0; -webkit-transition: opacity 0.9s ease-in-out; transition: opacity 0.9s ease-in-out;}
+
+.section-five.active > .fp-tableCell img {opacity: 1; -webkit-transition-delay: .55s; transition-delay: .55s;}
+
+.section-five > .fp-tableCell > a.view-next {opacity: 0; transform: translateY(900%); -webkit-transition: opacity 2s ease-in-out; transition: 2s ease-in-out;}
+.section-five.active > .fp-tableCell > a.view-next {transform: translateY(110%); opacity: 1;}

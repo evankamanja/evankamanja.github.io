@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<title>DNAFIT Web UX/UI | Portfolio of Evan Kamanja</title>
+<meta name="description" content="Digital Portfolio of Evan Kamanja.">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href="css/keyframes.css" rel="stylesheet" type="text/css" />
+<link href="css/pageTransitions.css" rel="stylesheet" type="text/css" />
+<link href="css/fullpage.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+<!-- Single Project page -->
+<div id="main" class="m-scene">
+<div id="header-alt">
+  <div class="header-wrapper">
+    <a href="projects.html"><span class="arrow-left"></span></a>
+	<!-- nav -->
+ <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+  <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Work</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  <!-- nav -->
+  </div>
+</div>
+<!-- Header -->
+<div id="wrapper" class="clearfix home scene_element scene_element--fadeinupbig">
+<!-- Fullpage 1 -->
+<div id="fullpage">
+	<div class="section section-one dnafit-bg" id="section1">
+        <div class="full-sec">
+            <div class="heading-wide-first">
+                <h1 class="white-txt">DNAFit Website UX</h1>
+                <p class="sub-heading white-txt">The brief provided asked for a website redesign using the content on the DNAFit website at the time.</p>
+                <p class="descriptor white-txt">User research + Competitor analysis + Wireframes</p>
+                <a class="full-sec-btn-light-dnafit" href="http://3rtymedia.site44.com/dnafit-invision/#/screens/307470696" target="_blank">View DNAFit Invision prototype</a>
+            </div>
+            <div class="img-container">
+                <img src="img/01DNAFit/Blog@2x.png" class="picture-left-first" />
+                <img src="img/01DNAFit/Cart@2x.png" class="picture-mid-first" />
+                <img src="img/01DNAFit/Contact_Us@2x.png" class="picture-right-first" />
+            </div>
+        </div>
+    </div>
+	
+	<div class="section section-two test-color10" id="section1">
+		<div class="full-sec">
+            <div class="heading-wide-first">
+                <h1>Home page</h1>
+                <p class="sub-heading">The home page was revised to include video showing what the product can do for the user and snippets of other vital information that would link the user to the relevant pages.</p>
+            </div>
+            <div class="img-container-alt">
+                <img src="img/01DNAFit/Home@2x.jpg" class="picture-single" />
+            </div>
+        </div>
+	</div>
+	
+	<div class="section section-three test-color8" id="section2">
+		<div class="full-sec">
+            <div class="heading-wide-first">
+                <h1 class="white-txt">Product offering</h1>
+                <p class="sub-heading white-txt">Benefits of using DNAFit's product were emphasised on the product page and there was further inclusion of the immediate visibility the user would have over different genetic and physiological factors.</p>
+            </div>
+            <div class="img-container-alt">
+                <img src="img/01DNAFit/Fitness_Diet_Pro@2x.png" class="picture-single" />
+            </div>
+        </div>
+	</div>
+    
+    <div class="section section-four test-color10" id="section3">
+		<div class="full-sec">
+            <div class="heading-wide-first">
+                <h1>How it works.</h1>
+                <p class="sub-heading">Focus was on a concise and descriptive breakdown of the DNAFit kit and the process required to get results. Due to the complexity of the subject matter, there was a need to visually breakdown and display whatever could be simplified.</p>
+            </div>
+            <div class="img-container-alt">
+                <img src="img/01DNAFit/How_it_Works@2x.jpg" class="picture-single" />
+            </div>
+        </div>
+	</div>
+    
+    <div class="section section-five test-color9" id="section4">
+		<div class="full-sec">
+            <div class="heading-wide-last">
+                <h1>View next</h1>
+                <a class="full-sec-btn-link" href="panjia.html">Panjia App UI/UX</a>
+            </div>
+        </div>
+	</div>
+    
+</div>
+<!-- Main -->
+</div>
+<!-- Projects Page -->
+</div>
+<!-- Single Project Page -->
+</body>
+<script src="js/jquery-1.12.1.min.js"></script>
+<script src="js/jquery.smoothState.js"></script>
+<script src="js/jquery.fullpage.min.js"></script>
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+	});
+});
+</script>
+</html>

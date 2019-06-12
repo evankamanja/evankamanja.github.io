@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Cache-Control" content="max-age=200" />
+<title>UX/UI Projects | Portfolio of Evan Kamanja</title>
+<meta name="description" content="Digital Portfolio of Evan Kamanja.">
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/keyframes.css" rel="stylesheet" type="text/css" />
+<link href="css/pageTransitions.css" rel="stylesheet" type="text/css" />
+<link href="css/fullpage.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+<!-- Home page -->
+<div id="main" class="m-scene">
+<div id="header-alt">
+  <div class="header-wrapper">
+    <a href="index.html"><span class="arrow-left-alt"></span></a>
+	<!-- nav -->
+ <div class="button_container_alt" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+  <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Work</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  <!-- nav -->
+  </div>
+</div>
+<!-- Header -->
+<div id="wrapper" class="clearfix home scene_element scene_element--fadeinupbig">
+<!-- Fullpage 1 -->
+<div id="fullpage">
+	<div class="section" id="section0">
+		<a class="single-project-full-single dnafit" href="dna-fit.html">
+			<div class="single-project-content dnafit-bg">
+				<img class="brand-img" src="img/01DNAFit/Logo_White_2018-01.png" alt=""/>
+			</div>
+		</a>
+		<a class="single-project-full-single panjia" href="panjia.html">
+           <div class="single-project-content panjia-bg">
+               <img class="brand-img" src="img/02Panjia/panjia-logo.png" alt=""/>
+           </div>
+		</a>
+	</div>
+		
+	<div class="section " id="section1">
+		<a class="single-project-full-single gbem" href="gbem.html">
+			<div class="single-project-content gbem-bg">
+				<h3 class="mid-heavy">GBEM</h3>
+			</div>
+		</a>
+        <a class="single-project-full-single knorrox" href="knorrox.html">
+          <div class="single-project-content knorrox-bg">
+             <img class="brand-img" src="img/04Knorrox/knorrox-logo.png" alt=""/>
+          </div>
+		</a>
+	</div>
+
+<!-- Main -->
+</div>
+<!-- Projects Page -->
+</div>
+<!-- Wrapper -->
+</body>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+<script src="assets/jquery.smoothState.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/fullpage.js"></script>
+<script type="text/javascript">
+  var myFullpage = new fullpage('#fullpage');
+</script>
+</html>

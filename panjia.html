@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Cache-Control" content="max-age=0" />
+<title>Panjia App UI/UX | Portfolio of Evan Kamanja</title>
+<meta name="description" content="Digital Portfolio of Evan Kamanja.">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link href="css/keyframes.css" rel="stylesheet" type="text/css" />
+<link href="css/pageTransitions.css" rel="stylesheet" type="text/css" />
+<link href="css/fullpage.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+<!-- Single Project page -->
+<div id="main" class="m-scene">
+<div id="header-alt">
+  <div class="header-wrapper">
+    <a href="projects.html"><span class="arrow-left"></span></a>
+	<!-- nav -->
+ <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+  <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Work</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  <!-- nav -->
+  </div>
+</div>
+<!-- Header -->
+<div id="wrapper" class="clearfix home scene_element scene_element--fadeinupbig">
+<!-- Fullpage 1 -->
+<div id="fullpage">
+	<div class="section section-one panjia-bg" id="section1">
+        <div class="full-sec">
+            <div class="heading-wide-first">
+                <h1 class="white-txt">Panjia App UI/UX</h1>
+                <p class="sub-heading white-txt">The client was looking to establish a music-based social media application that would allow users to connect to people with similar taste and access playlists that have been created by others.</p>
+                <p class="descriptor white-txt">Information Architecture + App Wireframes + App UI Design + Competitor research</p>
+            </div>
+            <div class="img-container-panjia">
+                <img src="img/02Panjia/Panjia-main-music-addtoplaylist@2x-100.jpg" class="picture-left-first" />
+                <img src="img/02Panjia/Panjia-main-music-pg1@2x-100.jpg" class="picture-mid-first" />
+                <img src="img/02Panjia/Panjia-main-music-nowplaying@2x-100.jpg" class="picture-right-first" />
+            </div>
+        </div>
+    </div>
+	
+	<div class="section section-two test-color10" id="section1">
+		<div class="full-sec">
+            <div class="heading-wide-first">
+                <h1>Curated content</h1>
+                <p class="sub-heading">The unique selling point the client was looking to get across to potential users was that there would be content curated by influencers and tastemakers in the industry.</p>
+            </div>
+            <div class="img-container-panjia">
+                <img src="img/02Panjia/Panjia-main-music-addtoplaylist@2x-100.jpg" class="picture-left-first" />
+                <img src="img/02Panjia/Panjia-main-music-playlists@2x-100.jpg" class="picture-mid-first" />
+                <img src="img/02Panjia/Panjia-main-music-podcasts@2x-100.jpg" class="picture-right-first" />
+            </div>
+        </div>
+	</div>
+	
+	<div class="section section-three test-color8" id="section2">
+		<div class="full-sec">
+            <div class="heading-wide-first">
+                <h1 class="white-txt">A strong African brand</h1>
+                <p class="sub-heading white-txt">Emphasis on ensuring an African identity was considered and put front and center. The iconography, artefacts, and colour use was deliberately kept as African as possible.</p>
+            </div>
+            <div class="img-container-panjia">
+                <img src="img/02Panjia/Panjia-main-music-pg-nav@2x-100.jpg" class="picture-left-first" />
+                <img src="img/02Panjia/panjia-sign-up-login1.jpg" class="picture-mid-first" />
+                <img src="img/02Panjia/panjia-player+playlist-4.jpg" class="picture-right-first" />
+            </div>
+        </div>
+	</div>
+    
+    <div class="section section-five test-color9" id="section3">
+		<div class="full-sec">
+            <div class="heading-wide-last">
+                <h1>View next</h1>
+                <a class="full-sec-btn-link" href="gbem.html">GBEM App UX</a>
+            </div>
+        </div>
+	</div>
+    
+</div>
+<!-- Main -->
+</div>
+<!-- Projects Page -->
+</div>
+<!-- Single Project Page -->
+</body>
+<script src="js/jquery-1.12.1.min.js"></script>
+<script src="js/jquery.smoothState.js"></script>
+<script src="js/jquery.fullpage.min.js"></script>
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+	});
+});
+</script>
+</html>
